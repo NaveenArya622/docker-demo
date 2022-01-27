@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Naveen Arya({process.env.MY_VAR})</h1>
+      <h1>Naveen Arya({process.env.REACT_APP_MY_VAR})</h1>
     </div>
   );
 }
